@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;1,400;1,500&family=MuseoModerno:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont,
+    Livvic, MuseoModerno,
+    'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, cursive;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family:
+    'Livvic', sans-serif,
+    'MuseoModerno', cursive,
+    source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

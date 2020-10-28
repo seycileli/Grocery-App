@@ -1,0 +1,109 @@
+* {
+    color: #40493B;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* nav: border-top + color, text etc */
+.nav__top {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Livvic, 'sans-serif';
+    font-size: .9em;
+    font-weight: 600;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    background-image: linear-gradient(to left, #0375b4, #0089be, #009cc2, #00aec1, #00bfbb, #14cbb3, #3cd6a6, #62e095, #8ae888, #b0ef7d, #d4f475, #f9f871);
+    padding: 6px;
+}
+
+/* nav: border-top -> hover effect */
+.nav__top:hover {
+    opacity: .8;
+    transition: opacity .8s ease-in;
+    background-image: linear-gradient(to right top, #0098c7, #00abcc, #00bdc7, #00cdb9, #42dba4, #51dda0, #5ede9d, #6ae099, #48d7a8, #25ceb3, #00c3bc, #00b8c0);
+}
+
+/* entirety of the navbar itself */
+nav {
+    position: sticky;
+    padding: 4px;
+    border-bottom: 4px solid #e3e3e3;
+}
+
+/* nav: brand name -> grcy */
+.nav__logo-name {
+    display: flex;
+    justify-content: flex-start;
+    font-family: MuseoModerno, cursive, sans-serif;
+    font-size: 25px;
+    text-transform: lowercase;
+}
+
+.nav__logo-p {
+    color: #0375B4;
+}
+
+/* nav: brand name -> icon */
+.nav__logo-icon {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 5px 5px;
+}
+
+/* ??? maybe, not so sure */
+/*.nav__logo-name:hover, .nav__logo-name:focus,*/
+/*.nav__logo-icon:hover, .nav__logo-icon:focus {*/
+/*    opacity: .8;*/
+/*    transition: opacity .8s ease-in;*/
+/*}*/
+
+/* div container wrapped around <Link />, <ul/> and <li/> */
+.container, ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: Livvic, sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-transform: lowercase;
+    margin: 1px;
+    padding: 1px;
+}
+
+/* provides space between list item words */
+li {
+    margin: 5px;
+}
+
+/* hover effect for our list items */
+.search:hover, .search:focus,
+.login:hover, .login:focus,
+.cart:hover, .cart:focus {
+    border-bottom: 2px solid #40493B;
+    border-radius: 5px;
+    opacity: .5;
+    transition: opacity .8s ease-in;
+}
+
+/* search bar */
+input {
+    padding: 4px;
+    width: 120px;
+    border: none;
+}
+
+/* cart text */
+.cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 4px;
+}
+
+/* cart icon */
+.cart__icon-logo {
+    margin: 5px;
+}
