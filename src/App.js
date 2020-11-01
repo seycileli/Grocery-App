@@ -5,6 +5,8 @@ import {Route, Switch} from "react-router-dom";
 
 //Components
 import Nav from './components/nav/Nav.js';
+import HeroSection from './components/hero/HeroSection';
+import Home from "./components/pages/home/Home";
 
 //CSS
 import './App.css';
@@ -16,8 +18,10 @@ function App() {
       <Nav />
 
       <Switch>
-          <Route path={'/'} exact />
+          <Route path={'/'} exact components={Home}/>
       </Switch>
+
+        <HeroSection />
 
     </>
   );

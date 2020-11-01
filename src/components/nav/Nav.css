@@ -15,7 +15,7 @@
     text-transform: lowercase;
     letter-spacing: 1px;
     background-image: linear-gradient(to left, #0375b4, #0089be, #009cc2, #00aec1, #00bfbb, #14cbb3, #3cd6a6, #62e095, #8ae888, #b0ef7d, #d4f475, #f9f871);
-    padding: 6px;
+    padding: 5px;
 }
 
 /* nav: border-top -> hover effect */
@@ -28,8 +28,8 @@
 /* entirety of the navbar itself */
 nav {
     position: sticky;
-    padding: 4px;
-    border-bottom: 4px solid #e3e3e3;
+    /*padding: 4px;*/
+    /*border-bottom: 4px solid #e3e3e3;*/
 }
 
 /* nav: brand name -> grcy */
@@ -40,25 +40,15 @@ nav {
     font-size: 25px;
     text-transform: lowercase;
 }
-
+/* nav: grcy text color */
 .nav__logo-p {
     color: #0375B4;
 }
 
-/* nav: brand name -> icon */
+/* nav: logo / icon next to grocery */
 .nav__logo-icon {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
     margin: 5px 5px;
 }
-
-/* ??? maybe, not so sure */
-/*.nav__logo-name:hover, .nav__logo-name:focus,*/
-/*.nav__logo-icon:hover, .nav__logo-icon:focus {*/
-/*    opacity: .8;*/
-/*    transition: opacity .8s ease-in;*/
-/*}*/
 
 /* div container wrapped around <Link />, <ul/> and <li/> */
 .container, ul {
@@ -73,7 +63,7 @@ nav {
     padding: 1px;
 }
 
-/* provides space between list item words */
+/* provides space between list items */
 li {
     margin: 5px;
 }

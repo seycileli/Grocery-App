@@ -11,6 +11,8 @@ import {RiShoppingCartLine as CartLogo} from 'react-icons/ri';
 import './Nav.css';
 
 function Nav() {
+    //JS logic below
+
 
     return (
         <>
@@ -31,7 +33,7 @@ function Nav() {
 
                     <ul>
                         <Link to={'product-page'}>
-                            <li className={'search; center'}>
+                            <li className={'search'}>
                                 <input placeholder={'search'}/>
                             </li>
                         </Link>
