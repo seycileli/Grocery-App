@@ -4,7 +4,8 @@ import React from 'react';
 import Button from "../button/Button";
 
 //CSS
-import './HeroSection.css';
+// import './HeroSection.css';
+import './Hero.css';
 
 function HeroSection() {
     return (
@@ -12,23 +13,20 @@ function HeroSection() {
 
             <div className={'hero__section-text'}>
 
-                <h1 className={'hero__section-main-header'}>Lorem Ipsum Dolor</h1>
-                <p className={'hero__section-main-p'}>Lorem ipsum dolor sit amet consectetuer</p>
+                <h1>Lorem Ipsum Dolor</h1>
+                <p>Lorem ipsum dolor sit amet consectetuer</p>
 
-
-                <div className={'hero__section-button-signup'}>
+                <div className={'hero__section-button'}>
                     <Button buttonStyle={'btn--outline'} buttonSize={'btn--large'}>
                         Sign Up
                     </Button>
-                </div>
 
-                <div className={'hero__section-button-discover'}>
-                <Button buttonStyle={'btn--primary'} buttonSize={'btn--large'}>
-                    Discover
-                </Button>
+                    <Button buttonStyle={'btn--outline'} buttonSize={'btn--large'}>
+                        Discover
+                    </Button>
                 </div>
-
             </div>
+
         </div>
     );
 }

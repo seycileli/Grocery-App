@@ -1,119 +1,194 @@
-/*
-    NOTES:
+/*!**/
+/*    NOTES:*/
 
-    background-color you see that is commented out;
-    will help identify and style that specific tag
+/*    background-color you see that is commented out;*/
+/*    will help identify and style that specific tag*/
 
-    I could have;
+/*    I could have;*/
 
-    .hero__section-container > h1
-    .hero__section-container > p
+/*    .hero__section-container > h1*/
+/*    .hero__section-container > p*/
 
-    to target the specific elements, but instead I wrapped them each
-    around div tags because it might be easier to understand / read
+/*    to target the specific elements, but instead I wrapped them each*/
+/*    around div tags because it might be easier to understand / read*/
 
-    So far not responsive,
+/*    So far not responsive,*/
 
-    Would have to include;
+/*    Would have to include;*/
 
-    @media screen and (max-width: 960px) {
-        .hero__section-container > h1 {
-            font-size:
-            //some more
-        }
+/*    @media screen and (max-width: 960px) {*/
+/*        .hero__section-container > h1 {*/
+/*            font-size:*/
+/*            //some more*/
+/*        }*/
 
-        .hero__section-container > p {
-            font-size:
-            //margin? just an example
-        }
-    }
+/*        .hero__section-container > p {*/
+/*            font-size:*/
+/*            //margin? just an example*/
+/*        }*/
+/*    }*/
 
-        @media screen and (max-width: 780px) {
-        .hero__section-container > h1 {
-            font-size:
-            //more code
-        }
+/*        @media screen and (max-width: 780px) {*/
+/*        .hero__section-container > h1 {*/
+/*            font-size:*/
+/*            //more code*/
+/*        }*/
 
-        .hero__section-container > p {
-            font-size:
-            //more code??
-        }
+/*        .hero__section-container > p {*/
+/*            font-size:*/
+/*            //more code??*/
+/*        }*/
 
-        //target the buttons as well
+/*        //target the buttons as well*/
 
-        .hero__section-text-button {
-            width??
+/*        .hero__section-text-button {*/
+/*            width??*/
 
-        }
-    }
+/*        }*/
+/*    }*/
 
-    would have to play around / test
-    out our code for the other
-    media screen sizes
+/*    would have to play around / test*/
+/*    out our code for the other*/
+/*    media screen sizes*/
 
-*/
+/**!*/
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
 
-.hero__section-container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-    url("https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 250px;
-    border-bottom-right-radius: 55px;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    object-fit: contain;
-    box-shadow: inset 0 0 0 30px rgba(0, 0, 0, 0.2);
-}
+/*.hero__section-container {*/
+/*    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),*/
+/*    url("https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    !*border-bottom-left-radius: 250px;*!*/
+/*    !*border-bottom-right-radius: 55px;*!*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    object-fit: contain;*/
+/*    box-shadow: inset 0 0 0 30px rgba(0, 0, 0, 0.2);*/
+/*}*/
 
-/* container wrapped around;
-<h1>
-<p>
-<button>                    */
-.hero__section-text {
-    position: absolute;
-    top: 25%;
-    left: 8%;
-    /*background-color: black;*/
-}
+/*!* container wrapped around;*/
+/*<h1>*/
+/*<p>*/
+/*<button>                    *!*/
+/*.hero__section-text {*/
+/*    position: absolute;*/
+/*    top: 25%;*/
+/*    left: 8%;*/
+/*    !*background-color: black;*!*/
+/*}*/
 
-/* <h1> tag */
-.hero__section-main-header {
-    color: #8ae888;
-    font-size: 90px;
-    height: 155px;
-    width: 500px;
-    /*background-color: #40493B;*/
-}
+/*!* <h1> tag *!*/
+/*.hero__section-text > h1 {*/
+/*    color: #8ae888;*/
+/*    font-size: 90px;*/
+/*    height: 155px;*/
+/*    width: 500px;*/
+/*    !*background-color: #40493B;*!*/
+/*}*/
 
-/* <p> tag */
-.hero__section-main-p {
-    color: #8ae888;
-    font-size: 20px;
-    font-weight: 700;
-    height: 33px;
-    width: 400px;
-    /*background-color: white;*/
-}
+/*!* <p> tag *!*/
+/*.hero__section-text > p {*/
+/*    color: #8ae888;*/
+/*    font-size: 20px;*/
+/*    font-weight: 700;*/
+/*    height: 33px;*/
+/*    width: 400px;*/
+/*    !*background-color: white;*!*/
+/*}*/
 
-/* sign up button tag */
-.hero__section-button-signup {
-    width: 124px;
-    /*background-color: #242424;*/
-}
+/*!* <Button> *!*/
+/*.hero__section-button {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    width: 265px;*/
+/*    !*background-color: #242424;*!*/
+/*}*/
 
-.hero__section-button-discover {
-    position: relative;
-    width: 130px;
-    /*background-color: #242424;*/
-}
+/*@media screen and (max-width: 960px) {*/
+
+/*    .hero__section-text {*/
+/*        position: absolute;*/
+/*        top: 33%;*/
+/*        left: 8%;*/
+/*        height: 300px;*/
+/*        width: 400px;*/
+/*        !*background-color: black;*!*/
+/*    }*/
+
+/*    !* <h1> tag *!*/
+/*    .hero__section-text > h1 {*/
+/*        color: #8ae888;*/
+/*        font-size: 70px;*/
+/*        height: 130px;*/
+/*        width: 400px;*/
+/*        !*background-color: #40493B;*!*/
+/*    }*/
+
+/*    !* <p> tag *!*/
+/*    .hero__section-text > p {*/
+/*        color: #8ae888;*/
+/*        font-size: 20px;*/
+/*        font-weight: 700;*/
+/*        height: 28px;*/
+/*        width: 385px;*/
+/*        !*background-color: white;*!*/
+/*    }*/
+
+/*    !* <Button> *!*/
+/*    .hero__section-button {*/
+/*        display: flex;*/
+/*        justify-content: space-between;*/
+/*        width: 265px;*/
+/*        !*background-color: #242424;*!*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 780px) {*/
+/*    .hero__section-text {*/
+/*        position: absolute;*/
+/*        top: 38%;*/
+/*        left: 8%;*/
+/*        height: 200px;*/
+/*        width: 435px;*/
+/*        !*background-color: black;*!*/
+/*    }*/
+
+/*    !* <h1> tag *!*/
+/*    .hero__section-text > h1 {*/
+/*        color: #8ae888;*/
+/*        font-size: 50px;*/
+/*        height: 55px;*/
+/*        width: 280px;*/
+/*        !*margin: 0 0 0px;*!*/
+/*        !*background-color: #40493B;*!*/
+/*    }*/
+
+/*    !* <p> tag *!*/
+/*    .hero__section-text > p {*/
+/*        color: #8ae888;*/
+/*        font-size: 20px;*/
+/*        font-weight: 700;*/
+/*        height: 25px;*/
+/*        width: 385px;*/
+/*        margin-top: 70px;*/
+/*        !*background-color: white;*!*/
+/*    }*/
+
+/*    !* <Button> *!*/
+/*    .hero__section-button {*/
+/*        display: flex;*/
+/*        justify-content: space-between;*/
+/*        width: 265px;*/
+/*        !*background-color: #242424;*!*/
+/*    }*/
+/*}*/

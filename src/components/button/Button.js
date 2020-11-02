@@ -23,7 +23,7 @@ function Button({children, type, onClick, buttonStyle, buttonSize}) {
             <Link to={'register'} className={'btn-mobile'}>
 
                 <button className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-                onClick={onClick} type={type}>
+                        onClick={onClick} type={type}>
                     {children}
                 </button>
 

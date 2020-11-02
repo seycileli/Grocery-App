@@ -26,11 +26,11 @@
 }
 
 /* entirety of the navbar itself */
-nav {
-    position: sticky;
-    /*padding: 4px;*/
-    /*border-bottom: 4px solid #e3e3e3;*/
-}
+/*nav {*/
+/*    position: sticky;*/
+/*    top: 0;*/
+/*    background-color: white;*/
+/*}*/
 
 /* nav: brand name -> grcy */
 .nav__logo-name {
